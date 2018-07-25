@@ -66,7 +66,29 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	margin: auto;
-	max-width: 75%;
-	position: relative;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+header {
+	vertical-align: middle;
+}
+nav {
+	margin-top: 40px;
+	display: inline-block;
+}
+nav a {
+	text-decoration: none;
+	color: #999;
+	font-size: 14px;
+	margin-right: 70px;
+}
+img.logo {
+	margin-top: 30px;
+	float: right;
+}
+
+.button {
+	position: absolute;
+	border: 1px solid black;
+	padding: 5px;
 }
